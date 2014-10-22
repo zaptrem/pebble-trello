@@ -103,7 +103,7 @@ function selectedList(list) {
   main = new UI.Card({
     title: 'Trello',
     icon: 'images/trellogo-logo.png',
-    subtitle: 'Loading...',
+    subtitle: 'Loading list...',
   });
   main.show();
 }
@@ -277,7 +277,7 @@ function loadStuff() {
   main = new UI.Card({
     title: 'Trello',
     icon: 'images/trellogo-logo.png',
-    subtitle: 'Loading...',
+    subtitle: 'Loading boards...',
   });
   main.show();
   console.log("changed main");
