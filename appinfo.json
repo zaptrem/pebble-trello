@@ -4,7 +4,7 @@
         "configurable"
     ],
     "companyName": "Schwittmann",
-    "longName": "trello",
+    "longName": "Trello Checklists",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -51,7 +51,7 @@
             }
         ]
     },
-    "shortName": "trello",
+    "shortName": "Trello",
     "uuid": "32bf21ee-b05e-4a80-97b7-21d2e2419a71",
     "versionCode": 1,
     "versionLabel": "1.0",
