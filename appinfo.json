@@ -1,0 +1,61 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Schwittmann",
+    "longName": "trello",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/trello-checked.png",
+                "name": "IMAGES_TRELLO_CHECKED_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/trello-pending.png",
+                "name": "IMAGES_TRELLO_PENDING_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/trello-box.png",
+                "name": "IMAGES_TRELLO_BOX_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/trellogo-logo.png",
+                "menuIcon": true,
+                "name": "IMAGES_TRELLOGO_LOGO_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "trello",
+    "uuid": "32bf21ee-b05e-4a80-97b7-21d2e2419a71",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
