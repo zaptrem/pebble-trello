@@ -54,7 +54,7 @@
     "shortName": "Trello",
     "uuid": "32bf21ee-b05e-4a80-97b7-21d2e2419a71",
     "versionCode": 1,
-    "versionLabel": "1.1",
+    "versionLabel": "1.2",
     "watchapp": {
         "watchface": false
     }

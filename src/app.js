@@ -191,9 +191,11 @@ function negateState(state) {
 
 function selectedChecklist(checklist, cardid) {
   var items = [];
+  
   checklist.checkItems.sort(function(a, b) {
     return a.pos - b.pos;
   });
+  
   for(var i in checklist.checkItems) {
     var item = checklist.checkItems[i];
     var title = item.name;
