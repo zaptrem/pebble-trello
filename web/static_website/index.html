@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>forwarder</title>
+</head>
+<body>
+<h1>Forwarding...</h1>
+<div id="u">Please wait...</div>
+<div id="x" style="color:red"></div>
+<script>
+setTimeout(function(){
+	if(window.location.hash.indexOf("#token=") === 0) {
+		window.location.href = "pebblejs://close#"+encodeURIComponent(JSON.stringify({token:window.location.hash.substr(7)}))
+	} else {
+		document.getElementById('x').innerHTML = "Failed to load token from URL. Try again."
+	}
+}, 500);
+</script>
+</body>
+</html>
