@@ -11,7 +11,7 @@ var main = new UI.Card({
 var loadedInit = false;
 
 Pebble.addEventListener('showConfiguration', function() {
-  Pebble.openURL('https://trello.com/1/authorize?callback_method=fragment&scope=read,write&expiration=never&name=Pebble&key=e3227833b55cbe24bfedd05e5ec870dd&return_url=https://pebble-trello.appspot.com');
+  Pebble.openURL('https://trello.com/1/authorize?callback_method=fragment&scope=read,write&expiration=never&name=Pebble&key=cf8fab06a13e67bf2a07c03937fca30b&return_url=https://pebble-trello.appspot.com');
 });
 
 Pebble.addEventListener("webviewclosed", function (e) {
@@ -73,7 +73,7 @@ function makeRequest(urlpath, success, fail, verb) {
   if(!verb) {
     verb = "get";
   }
-  req.open(verb, 'https://api.trello.com/1/'+urlpath+'&key=e3227833b55cbe24bfedd05e5ec870dd&token='+localStorage.getItem("token"));
+  req.open(verb, 'https://api.trello.com/1/'+urlpath+'&key=cf8fab06a13e67bf2a07c03937fca30b&token='+localStorage.getItem("token"));
   req.onload = function(e) {
     if (req.readyState != 4)
         return;
